@@ -25414,29 +25414,34 @@ utils.intFromLE = intFromLE;
 
 },{"bn.js":96,"minimalistic-assert":198,"minimalistic-crypto-utils":199}],112:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@^6.0.0",
+  "_args": [
+    [
+      "elliptic@6.4.1",
+      "/home/raptor/garlicore-lib"
+    ]
+  ],
+  "_from": "elliptic@6.4.1",
   "_id": "elliptic@6.4.1",
   "_inBundle": false,
   "_integrity": "sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==",
   "_location": "/browserify-sign/elliptic",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "elliptic@^6.0.0",
+    "raw": "elliptic@6.4.1",
     "name": "elliptic",
     "escapedName": "elliptic",
-    "rawSpec": "^6.0.0",
+    "rawSpec": "6.4.1",
     "saveSpec": null,
-    "fetchSpec": "^6.0.0"
+    "fetchSpec": "6.4.1"
   },
   "_requiredBy": [
     "/browserify-sign"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz",
-  "_shasum": "c2d0b7776911b86722c632c3c06c60f2f819939a",
-  "_spec": "elliptic@^6.0.0",
-  "_where": "/home/raptor/garlicore-lib/node_modules/browserify-sign",
+  "_spec": "6.4.1",
+  "_where": "/home/raptor/garlicore-lib",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -25444,7 +25449,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -25454,7 +25458,6 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -25992,29 +25995,34 @@ arguments[4][110][0].apply(exports,arguments)
 arguments[4][111][0].apply(exports,arguments)
 },{"bn.js":121,"dup":111,"minimalistic-assert":198,"minimalistic-crypto-utils":199}],137:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@^6.0.0",
+  "_args": [
+    [
+      "elliptic@6.4.1",
+      "/home/raptor/garlicore-lib"
+    ]
+  ],
+  "_from": "elliptic@6.4.1",
   "_id": "elliptic@6.4.1",
   "_inBundle": false,
   "_integrity": "sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==",
   "_location": "/create-ecdh/elliptic",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "elliptic@^6.0.0",
+    "raw": "elliptic@6.4.1",
     "name": "elliptic",
     "escapedName": "elliptic",
-    "rawSpec": "^6.0.0",
+    "rawSpec": "6.4.1",
     "saveSpec": null,
-    "fetchSpec": "^6.0.0"
+    "fetchSpec": "6.4.1"
   },
   "_requiredBy": [
     "/create-ecdh"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz",
-  "_shasum": "c2d0b7776911b86722c632c3c06c60f2f819939a",
-  "_spec": "elliptic@^6.0.0",
-  "_where": "/home/raptor/garlicore-lib/node_modules/create-ecdh",
+  "_spec": "6.4.1",
+  "_where": "/home/raptor/garlicore-lib",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -26022,7 +26030,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -26032,7 +26039,6 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -29958,7 +29964,13 @@ utils.getJSF = getJSF;
 
 },{}],171:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@=3.0.3",
+  "_args": [
+    [
+      "elliptic@3.0.3",
+      "/home/raptor/garlicore-lib"
+    ]
+  ],
+  "_from": "elliptic@3.0.3",
   "_id": "elliptic@3.0.3",
   "_inBundle": false,
   "_integrity": "sha1-hlybQgv75VAGuflp+XoNLESWZZU=",
@@ -29967,19 +29979,18 @@ module.exports={
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "elliptic@=3.0.3",
+    "raw": "elliptic@3.0.3",
     "name": "elliptic",
     "escapedName": "elliptic",
-    "rawSpec": "=3.0.3",
+    "rawSpec": "3.0.3",
     "saveSpec": null,
-    "fetchSpec": "=3.0.3"
+    "fetchSpec": "3.0.3"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-3.0.3.tgz",
-  "_shasum": "865c9b420bfbe55006b9f969f97a0d2c44966595",
-  "_spec": "elliptic@=3.0.3",
+  "_spec": "3.0.3",
   "_where": "/home/raptor/garlicore-lib",
   "author": {
     "name": "Fedor Indutny",
@@ -29988,14 +29999,12 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^2.0.0",
     "brorand": "^1.0.1",
     "hash.js": "^1.0.0",
     "inherits": "^2.0.1"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "browserify": "^3.44.2",
