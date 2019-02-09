@@ -5,11 +5,11 @@ Litecore Library
 [![Build Status](https://img.shields.io/travis/litecoin-project/litecore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/litecore-lib)
 [![Coverage Status](https://img.shields.io/coveralls/litecoin-project/litecore-lib.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/litecore-lib)
 
-A pure and powerful JavaScript Litecoin library.
+A pure and powerful JavaScript Tuxcoin library.
 
 ## Principles
 
-Litecoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Litecoin network allows for highly resilient litecoin infrastructure, and the developer community needs reliable, open-source tools to implement litecoin apps and services.
+Tuxcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Tuxcoin network allows for highly resilient litecoin infrastructure, and the developer community needs reliable, open-source tools to implement litecoin apps and services.
 
 ## Get Started
 
@@ -94,4 +94,4 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 Code released under [the MIT license](https://github.com/litecoin-project/litecore-lib/blob/master/LICENSE).
 
 Copyright 2013-2017 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2016-2017 The Litecoin Core Developers
+Copyright 2016-2017 The Tuxcoin Core Developers

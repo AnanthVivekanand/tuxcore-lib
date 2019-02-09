@@ -1065,7 +1065,7 @@ BlockHeader.prototype.validTimestamp = function validTimestamp() {
  * @returns {Boolean} - If the proof-of-work hash satisfies the target difficulty
  */
 BlockHeader.prototype.validProofOfWork = function validProofOfWork() {
-  // For Litecoin, we use the scrypt hash to calculate proof of work
+  // For Tuxcoin, we use the scrypt hash to calculate proof of work
   var pow = new BN(Hash.scrypt(this.toBuffer()), 11); //TODO: Fix this
   var target = this.getTargetDifficulty();
 
@@ -1968,7 +1968,7 @@ Hash.sha512hmac = function(data, key) {
   return Hash.hmac(Hash.sha512, data, key);
 };
 
-// Litecoin Scrypt hashing
+// Tuxcoin Scrypt hashing
 Hash.scrypt = function(buf, n) {
   $.checkArgument(BufferUtil.isBuffer(buf));
   return BufferUtil.reverse(Scrypt(buf, buf, Math.pow(2, n), 1, 1, 32));
@@ -9888,7 +9888,7 @@ Transaction.DUST_AMOUNT = 546;
 Transaction.FEE_SECURITY_MARGIN = 150;
 
 // max amount of satoshis in circulation
-Transaction.MAX_MONEY = 84000000 * 1e8; // Litecoin has 84M coins
+Transaction.MAX_MONEY = 84000000 * 1e8; // Tuxcoin has 84M coins
 
 // nlocktime limit to be considered block height rather than a timestamp
 Transaction.NLOCKTIME_BLOCKHEIGHT_LIMIT = 5e8;
@@ -9897,7 +9897,7 @@ Transaction.NLOCKTIME_BLOCKHEIGHT_LIMIT = 5e8;
 Transaction.NLOCKTIME_MAX_VALUE = 4294967295;
 
 // Value used for fee estimation (satoshis per kilobyte)
-Transaction.FEE_PER_KB = 100000; // Litecoin default fees is 0.001 LTC
+Transaction.FEE_PER_KB = 100000; // Tuxcoin default fees is 0.001 LTC
 
 // Safe upper bound for change address script size in bytes
 Transaction.CHANGE_OUTPUT_MAX_SIZE = 20 + 4 + 34 + 4;
@@ -11682,7 +11682,7 @@ URI.prototype.toObject = URI.prototype.toJSON = function toObject() {
 /**
  * Will return a the string representation of the URI
  *
- * @returns {string} Litecoin URI string
+ * @returns {string} Tuxcoin URI string
  */
 URI.prototype.toString = function() {
   var query = {};
@@ -11710,7 +11710,7 @@ URI.prototype.toString = function() {
 /**
  * Will return a string formatted for the console
  *
- * @returns {string} Litecoin URI
+ * @returns {string} Tuxcoin URI
  */
 URI.prototype.inspect = function() {
   return '<URI: ' + this.toString() + '>';
@@ -54606,7 +54606,7 @@ exports.createContext = Script.createContext = function (context) {
 module.exports={
   "name": "garlicore-lib",
   "version": "0.1.4",
-  "description": "A pure and powerful JavaScript Litecoin library.",
+  "description": "A pure and powerful JavaScript Tuxcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
