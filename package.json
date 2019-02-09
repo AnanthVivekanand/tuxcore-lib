@@ -29,26 +29,28 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/garlicoin-project/garlicore-lib.git"
+    "url": "https://github.com/KorkyMonster/tuxcore-lib.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
     "bn.js": "=2.0.4",
+    "browserify": "^16.2.3",
     "bs58": "=2.0.0",
     "buffer-compare": "=1.0.0",
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "=3.10.1",
+    "require-dir": "^1.2.0",
     "scryptsy": "=2.0.0"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.9.1",
-    "garlicore-build": "garlicoin-project/garlicore-build",
-    "sinon": "^1.13.0"
+    "sinon": "^1.13.0",
+    "tuxcore-build": "github:Wuzado/tuxcore-build"
   },
   "license": "MIT"
 }
