@@ -1,4 +1,4 @@
-Litecore Library
+Tuxcore Library
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/litecore-lib.svg?style=flat-square)](https://www.npmjs.org/package/litecore-lib)
@@ -9,12 +9,14 @@ A pure and powerful JavaScript Tuxcoin library.
 
 ## Principles
 
-Tuxcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Tuxcoin network allows for highly resilient litecoin infrastructure, and the developer community needs reliable, open-source tools to implement litecoin apps and services.
+Tuxcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Tuxcoin network allows for highly resilient infrastructure, and the developer community needs reliable, open-source tools to implement Tuxcoin apps and services.
 
 ## Get Started
 
-```
-npm install litecore-lib
+```sh
+git clone https://github.com/KorkyMonster/tuxcore-lib.git
+cd tuxcore-lib
+npm i
 ```
 
 ```
@@ -61,7 +63,7 @@ To build a litecore-lib full bundle for the browser:
 gulp browser
 ```
 
-This will generate files named `litecore-lib.js` and `litecore-lib.min.js`.
+This will generate files named `tuxcore-lib.js` and `tuxcore-lib.min.js`.
 
 You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/bitpay/bitcore-lib/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
 
